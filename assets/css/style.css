@@ -199,6 +199,7 @@ hr {
     background-size: cover;
     background-position: center;
     overflow: hidden;
+    margin-top: 10px;
 }
 
 #times div {
@@ -265,21 +266,19 @@ footer {
     #welcome {
         padding: 30px 0;
         margin: 0;
-
     }
 
     #left-about, #right-about {
-        width:100%;
+        width: 100%;
         float: left;
         padding: 0;
     }
 
-    #centre-about{
+    #centre-about {
         clear: both;
         width: 100%;
-        float: left;
         padding: 0;
-
+           
     }
 
     #times > div {
@@ -287,6 +286,7 @@ footer {
         clear: both;
         height: 150px;
         padding: 0;
+        
     }
 
     hr {
