@@ -6,13 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="London Stove Co. Installing Stoves in London">
     <meta name="keywords" content="London Stove Company, London Stove Co, Stove, Stove installing, Stove installation, Site Survey, Supply of stove, Liner & Stonework, Warranty">
-
     <link rel="stylesheet" href="assets/css/style.css">
     <title>London Stove Company</title>
 </head>
 
-    <!-- Stylesheet -->
-    <link href="index.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
@@ -23,7 +20,7 @@
         <nav>
             <ul id="menu">
                 <li>
-                    <a class="active" href="signup.html">Sign Up</a>
+                    <a class="active" href="signup.html">Contact us</a>
                 </li>
                 <li>
                     <a href="gallery.html">Gallery</a>
@@ -36,38 +33,44 @@
         </nav>
     </header>
     <section class="form-section">
-        <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
-            <h2><i class="fas fa-heartbeat"></i>Let's get you signed up!</h2>
-            <label for="fname" >First Name</label>
+        <form method="POST" action="https://formspree.io/f/xjvqqolj" class="signup-form">
+            <h2><i class="fas fa-envelope" id="contact-icon"></i>Get in touch!</h2>
+            <label for="fname" >Full Name</label>
             <input id="fname" name="first_name" type="text" required class="text-input">
             
-            <label for="lname">Last Name</label>
+            <label for="lname">Contact Number</label>
             <input id="lname" name="last_name" type="text" required class="text-input">
             
             <label for="email">Email Address</label>
             <input type="email" id="email" name="email_address" required class="text-input">
+
+            <label for="email">Your Query</label>
+            <input type="email" id="email" name="email_address" required class="text-input">
             
-            <label for="road">Road</label>
+            <label for="road">Existing Chimney</label>
             <input type="radio" id="road" name="running_preference" value="road" required>
-            <label for="trail">Trail</label>
+            <label for="trail">No Chimney</label>
             <input type="radio" id="trail" name="running_preference" value="trail" required>
-            <label for="both">Both</label>
-            <input type="radio" id="both" name="running_preference" value="both" required>
             
-            <input class="join-button" type="submit" value="Let's Run!" >
+            
+            <input class="join-button" type="submit" value="Submit" >
         </form>
     </section>
     <footer>
         <ul class="social-networks">
-            <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
-            <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
-            <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a></li>
-            <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            <li>
+                <a href="https://www.facebook.com/thelondonstovecompany/" target="_blank" rel="noopener" aria-label="Visit out Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+           
+            <li>
+                <a href="https://www.instagram.com/the_london_stove_company/" target="_blank" rel="noopener" aria-label="Visit out Instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></i></a>
+            </li>
+    
         </ul>
     </footer>
 
-    <!-- Font awesome script -->
-    <script src="https://kit.fontawesome.com/b83175b9a4.js" crossorigin="anonymous"></script>
+    <!-- font awesome script-->
+    <script src="https://kit.fontawesome.com/ceb7a77ac8.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
