@@ -354,6 +354,16 @@ color: #fafafa;
 margin-bottom: 20px;
 }
 
+textarea {
+    resize: none;
+  }  
+
+.custom-textarea {
+    width: 400px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+  }
+  
+
 .text-input {
   background: transparent;
   color: #fafafa;
@@ -578,6 +588,15 @@ body > *:not(header) {
     #photos {
         margin-top: 170px; /* Apply a margin-top of 155px for smaller screens */
     }
+
+    .timeline {
+        margin-top: 280px; /* Apply a margin-top of 155px for smaller screens */
+    }
+
+    .custom-textarea {
+        width: 285px;
+        height: 100px;
+    }
 }
 
 /* Media query for mobile view */
@@ -607,4 +626,57 @@ body > *:not(header) {
     #photos {
         margin-top: 170px; /* Apply a margin-top of 155px for smaller screens */
     }
+
+    .timeline {
+        margin-top: 280px; /* Apply a margin-top of 155px for smaller screens */
+    }
+
+    .custom-textarea {
+        width: 285px;
+        height: 100px;
+    }
 }
+
+/* Center the timeline horizontally */
+.timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; /* Adjust as needed */
+    margin-top: 155px;
+  }
+  
+  /* Styles for the boxes */
+  .box {
+    width: 80%; /* Width of each box */
+    height: 100px; /* Height of each box */
+    background-color: #ccc;
+    margin: 10px 0; /* Adjust vertical spacing between boxes */
+    box-sizing: border-box;
+    border-radius: 10px; /* Rounded corners */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+  }
+  
+  /* Style for the downward arrow */
+  .box::after {
+    content: "";
+    position: absolute;
+    bottom: -20px; /* Space between box and arrow */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #ccc; /* Color same as box background */
+  }
+  
+  /* Remove arrow after the last box */
+  .last-box::after {
+    display: none;
+  }
+  
