@@ -651,7 +651,7 @@ body > *:not(header) {
   /* Styles for the boxes */
   .box {
     width: 80%; /* Width of each box */
-    background-color: #ccc;
+    background-color: #cccccc25;
     margin: 10px 0; /* Adjust vertical spacing between boxes */
     box-sizing: border-box;
     border-radius: 10px; /* Rounded corners */
@@ -661,6 +661,7 @@ body > *:not(header) {
     text-align: center;
     position: relative;
     padding: 20px; /* Added padding to provide space for text */
+    
   }
   
   /* Ensure text fits perfectly for different screen sizes */
@@ -724,4 +725,5 @@ body > *:not(header) {
       margin-top: 280px; /* Increase margin-top to create space below the fixed navbar */
     }
   }
+
   
