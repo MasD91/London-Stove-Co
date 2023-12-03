@@ -6,9 +6,9 @@
 }
 
 .logo-image {
-    width: 40px; /* Adjust the width of the logo image */
-    height: auto; /* Allow the height to adjust proportionally */
-    margin-left: 10px; /* Adjust the margin as needed */
+    width: 125px;
+    height: auto;
+    margin-block-end: -55px;/* Adjust the margin as needed */
 }
 
 #logo {
@@ -275,7 +275,7 @@ hr {
     background-size: contain;
     background-position: center;
     overflow: hidden;
-    margin-top: 50px;
+    margin-top: 135px;
 }
 
 
@@ -582,7 +582,7 @@ body > *:not(header) {
     }
 
     #times {
-        margin-top: 155px; /* Apply a margin-top of 155px for smaller screens */
+        margin-top: 255px; /* Apply a margin-top of 155px for smaller screens */
     }
 
     #photos {
@@ -620,7 +620,7 @@ body > *:not(header) {
     }
     
     #times {
-        margin-top: 155px; /* Apply a margin-top of 155px for smaller screens */
+        margin-top: 255px; /* Apply a margin-top of 155px for smaller screens */
     }
 
     #photos {
@@ -726,4 +726,51 @@ body > *:not(header) {
     }
   }
 
-  
+  /* Styles for desktop screens */
+.vans {
+    max-width: 80%;
+    margin: 0 auto; /* Center the div horizontally */
+}
+
+.vans img {
+    width: 100%; /* Ensures the image takes the full width of its container */
+    height: auto; /* Allows the image to adjust its height proportionally */
+    display: block; /* Ensures no extra space below the image */
+}
+
+/* Media query for tablet and mobile view */
+@media screen and (max-width: 768px) {
+    .vans {
+        max-width: 100%; /* Make the image container take the full width of smaller screens */
+    }
+}
+
+
+/* Media query for tablet and mobile view */
+@media screen and (max-width: 768px) {
+    /* Reduce the font size and padding for the logo */
+    #logo {
+        font-size: 150%;
+        margin-left: 10px; /* Adjust the margin as needed */
+    }
+
+    /* Adjust the font size and padding for the navigation menu */
+    #menu {
+        font-size: 90%;
+    }
+
+    #menu li {
+        margin-right: 15px;
+    }
+}
+
+.phone-text {
+    display: none;
+}
+
+.logo-image {
+    /* Your CSS styles here */
+    width: 100px; /* Example width */
+    height: auto; /* Example height */
+    /* Other styles as needed */
+}
