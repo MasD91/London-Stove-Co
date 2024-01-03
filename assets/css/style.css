@@ -304,6 +304,7 @@ footer {
 
 .social-networks {
     text-align: center;
+    margin-top: 180px;
 }
 
 .social-networks > li {
@@ -774,3 +775,4 @@ body > *:not(header) {
     height: auto; /* Example height */
     /* Other styles as needed */
 }
+
