@@ -825,3 +825,7 @@ body > *:not(header) {
     color: #fff;
     transform: translate(-50%, -50%) rotatez(90deg);
 }
+
+.image-header {
+    text-align: center;
+}
